@@ -1,0 +1,473 @@
+/*FRONT CSS*/
+#logdiv{
+        background-color: #090404;
+        border: 4px solid #630404;
+        width: 16%;
+        color: white;
+        position: absolute;
+        top: -200px;
+}
+#logul{
+        padding: 4px;
+        margin: 0px;
+        list-style-type: none;
+}
+.logli{
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 16px;
+}
+#forborder{
+        border-bottom: 4px solid #630404;
+}
+#background{
+        background-image: url('../private/IMG-20220312-WA0002.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+#menudiv{
+        background-color: #090404;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fulldiv{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+}
+#menuul{
+        width: 76%;
+        padding-left: 2%;
+        margin: 0px;
+        list-style-type: none;
+        overflow: auto;
+}
+.menuli{
+        width: 16%;
+        text-align: center;
+        float: left;
+}
+#menuliwidth{
+        text-decoration: underline;
+        width: 30%;
+        font-weight: bold;
+}
+.ali{
+        color: white;
+        text-decoration: none;
+}
+.ali:hover{
+        color: white;
+        text-decoration: none;
+}
+#hidiv{
+        padding-right: 2%;
+        width: 20%;
+        color: white;
+        text-align: right;
+}
+#maindiv{
+        padding: 10vh 0vw;
+}
+#imgoutdiv{
+        padding: 6vh 0vw;
+        display: flex;
+        justify-content: center;
+}
+#imgindiv{
+        height: 80px;
+        width: 250px;
+        font-size: 0px;
+}
+#headingdiv{
+        height: 28vh;
+        display: flex;
+        align-items: center;
+}
+#mainheading{
+        width: 100%;
+        margin: 0px;
+        color: white;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+}
+#buttondiv{
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+}
+#lbutton{
+        background-color: #1f0404;
+        border: 4px solid #630404;
+        border-radius: 10px;
+        padding: 8px 30px;
+        color: white;
+        font-weight: bold;
+}
+#fouter{
+        display: flex;
+        justify-content: center; 
+}
+#finner{
+        width: 850px;
+        padding: 0vh 4vw 4vh;
+        color: white;
+}
+#fh1{
+        padding: 4vh 0vw;
+        margin: 0px;
+        font-size: 48px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #ffffff;
+        -webkit-text-fill-color: #350404;
+        letter-spacing: 4px;
+        font-family: Impact, Charcoal, sans-serif;
+}
+.qdiv{
+        padding: 2vh 0vw;
+        font-size: 24px;
+}
+.fpara{
+        margin: 0px;
+        display: inline;
+        cursor: pointer;
+}
+.plus{
+        font-size: 24px;
+}
+.adiv{
+        padding: 2vh 0vw;
+        font-size: 16px;
+}
+hr{
+        border: 1px solid white;
+        margin: 0px;
+}
+#last{
+        padding: 0% 2%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+}
+#forcenter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+#left{
+        border: 2px solid white;
+        width: 240px;
+}
+#contact{
+        background-color: white;
+        color: #090404;
+        text-align: center;
+        font-weight: bold;
+}
+#icons{
+        padding: 0% 2%;
+        background-color: #090404;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+}
+.inline{
+        display: inline-block;
+}
+/*RULES CSS*/
+#rulesheading{
+        padding: 14vh 0vw 4vh 0vw;
+        margin: 0px;
+        color: white;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+}
+#rulesdiv{
+        padding-bottom: 4vh;
+        display: flex;
+        justify-content: center;
+}
+#boxdiv{
+        width: 850px;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 20px 20px 20px 0px;
+}
+#rulesul{
+        margin: 0px;
+}
+.rulesli{
+        padding: 10px 0px;
+        color: white;
+        font-size: 20px;
+}
+/*GAME CSS*/
+#gameoutdiv{
+        display: flex;
+        justify-content: center;
+}
+#gameindiv{
+        height: 520px;
+        width: 520px;
+        font-size: 0px;
+}
+#formdiv{
+        height: 26vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#divform{
+        width: 260px;
+}
+#gameanswer{
+        width: 100%;
+}
+#checkdiv{
+        padding: 4vh 0vw;
+        display: flex;
+        justify-content: center;
+}
+/*LEADERBOARD CSS*/
+#louter{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4vh;
+}
+#linner{
+        border: 4px solid white;
+        width: 850px;
+}
+#forwidth{
+        border-spacing: 0px;
+        width: 100%;
+        border: 4px solid #b10404;
+}
+.rl{
+        border: 4px solid #b10404;
+        width: 10%;
+        padding: 2vh 0vw;
+        color: white;
+        text-align: center;
+        box-sizing: border-box;
+}
+.name{
+        border: 4px solid #b10404;
+        width: 60%;
+        padding: 2vh 0vw;
+        color: white;
+        text-align: center;
+        box-sizing: border-box;
+}
+.font{
+        font-size: 26px;
+        padding: 4vh 0vw;
+}
+@media screen and (max-width: 1200px){
+        /*FRONT responsive*/
+        #finner{
+                width: 850px;
+        }
+        /*RULES responsive*/
+        #boxdiv{
+                width: 850px;
+        }
+        /*GAME responsive*/
+        #gameindiv{
+                height: 520px;
+                width: 520px;
+                font-size: 0px;
+        }
+        /*LEADERBOARD responsive*/
+        #linner{
+                width: 850px;
+        }
+}
+@media screen and (max-width: 928px){
+        /*FRONT responsive*/
+        #mainheading{
+                font-size: 48px;
+        }
+        #fh1{
+                font-size: 40px;
+        }
+        .qdiv{
+                font-size: 18px;
+        }
+        .plus{
+                font-size: 18px;
+        }
+        .adiv{
+                font-size: 14px;
+        }
+}
+@media screen and (max-width: 838px){
+        /*FRONT responsive*/
+        #fulldiv{
+                font-size: 16px;
+        }
+        .menuli{
+                width: 18%;
+        } 
+        #menuliwidth{
+                width: 50%;
+        }
+        #finner{
+                width: 95%;
+        }
+        #logdiv{
+                width: 20%;
+        }
+        /*RULES responsive*/
+        #rulesheading{
+                font-size: 48px;
+        }
+        #boxdiv{
+                width: 95%;
+        }
+        .rulesli{
+                font-size: 16px;
+        }
+        /*GAME responsive*/
+        #gameindiv{
+                height: 400px;
+                width: 400px;
+                font-size: 0px;
+        }
+        /*LEADERBOARD responsive*/
+        #linner{
+                width: 95%;
+        }
+}
+@media screen and (max-width: 630px){
+        /*FRONT responsive*/
+        #menuul{
+                background-color: #090404;
+                padding: 0% 4%;
+                height: 90vh;
+                width: 62%;
+                position: absolute;
+                left: -70%;
+                top: 10vh;
+        }
+        .menuli{
+                border-bottom: 4px solid #630404;
+                width: 100%;
+                padding: 10px 0px;
+                text-align: left;
+        }
+        #menuliwidth{
+                width: 100%;
+        }
+        #menubutton{
+                width: 36%;
+                padding-left: 2%;
+                color: white;
+                font-size: 16px;
+        }
+        #hidiv{
+                width: 72%;
+        }
+        #mainheading{
+                font-size: 36px;
+        }
+        #cross{
+                padding: 1ppx 0px;
+                color: white;
+                text-align: right;
+                font-size: 16px;
+        }
+        #finner{
+                width: 95%;
+        }
+        /*RULES responsive*/
+        #boxdiv{
+                width: 95%;
+        }
+        /*GAME responsive*/
+        #gameindiv{
+                height: 360px;
+                width: 360px;
+                font-size: 0px;
+        }
+        /*LEADERBOARD responsive*/
+        .lh3{
+                font-size: 16px;
+        }
+        .lli{
+                font-size: 12px;
+        }
+        #linner{
+                width: 955;
+        }
+}
+@media screen and (max-width: 460px){
+        /*FRONT responsive*/
+        #logdiv{
+                width: 30%;
+        }
+        #imgindiv{
+                height: 60px;
+                width: 200px;
+        }
+        #mainheading{
+                font-size: 28px;
+        }
+        #finner{
+                width: 300px
+        }
+        #fh1{
+                font-size: 36px;
+        }
+        .qdiv{
+                font-size: 16px;
+        }
+        .plus{
+                font-size: 16px;
+        }
+        .adiv{
+                font-size: 12px;
+        }
+        /*RULES responsive*/
+        #rulesheading{
+                font-size: 36px;
+        }
+        #boxdiv{
+                width: 300px;
+        }
+        .rulesli{
+                font-size: 14px;
+        }
+        /*GAME responsive*/
+        #gameindiv{
+                height: 300px;
+                width: 300px;
+                font-size: 0px;
+        }
+        /*LEADFERBOARD responsive*/
+        .font{
+                font-size: 20px;
+        }
+        #linner{
+                width: 300px;
+        }
+}
+@media screen and (max-width: 336px){
+        #removemenu{
+                display: none;
+        }
+}
+@media screen and (min-width: 631px){
+        #menubutton{
+                display: none;
+        }
+        #cross{
+                display: none;
+        }
+}
